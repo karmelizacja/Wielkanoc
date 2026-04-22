@@ -35,10 +35,17 @@ a {
     align-items: flex-start;
 }
 
-#main { align-items: center; }
-#main-gallery { flex-direction: column; align-items: center; }
+#main { 
+    align-items: center;
+}
+#main-gallery {
+     flex-direction: column;
+    align-items: center;
+}
 
-.text-hist, .box { flex: 1; }
+.text-hist, .box { 
+    flex: 1; 
+}
 
 h1 {
     font-size: 48px;
@@ -71,7 +78,7 @@ p {
     border: 3px solid #c8860a;
 }
 
-.contact-input {
+.kontakt-input {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
@@ -81,7 +88,7 @@ p {
     box-sizing: border-box;
 }
 
-.contact-button {
+.kontakt-button {
     background-color: #b85c00;
     color: white;
     border: none;
@@ -93,7 +100,7 @@ p {
     transition: background 0.3s;
 }
 
-.contact-button:hover {
+.kontakt-button:hover {
     background-color: #f58549;
 }
 
